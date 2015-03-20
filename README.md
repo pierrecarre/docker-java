@@ -1,4 +1,4 @@
-## Java 6 with CentOS 6
+## Java with CentOS 6
 
 This is docker images of CentOS 6 with several versions of Java.
 
