@@ -13,7 +13,7 @@ ENV HOME /root
 
 # Set JAVA_HOME
 ENV JAVA_HOME /opt/jdk1.6.0_45
-ENV PATH $PATH:$JAVA_HOME/bin
+ENV PATH $JAVA_HOME/bin:$PATH
 
 # Define working directory.
 WORKDIR /root
