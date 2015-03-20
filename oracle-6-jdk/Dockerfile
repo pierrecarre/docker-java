@@ -2,7 +2,7 @@ FROM centos:centos6
 MAINTAINER Pierre CARRE <pierre.carre78@gmail.com>
 
 RUN cd /opt \
-&& curl -L 'https://s3.amazonaws.com/pierrecarre/oracle-jdk/jdk-6u45-linux-x64.bin' \
+&& curl -L 'https://s3.amazonaws.com/pierrecarre-java/oracle-jdk/jdk-6u45-linux-x64.bin' \
 -o jdk-6u45-linux-x64.bin \
 && chmod +x jdk-6u45-linux-x64.bin \
 && yes yes | ./jdk-6u45-linux-x64.bin
