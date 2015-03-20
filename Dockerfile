@@ -1,1 +1,1 @@
-openjdk-6-jdk/Dockerfile
+oracle-6-jdk/Dockerfile
